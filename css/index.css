@@ -355,6 +355,7 @@ li.navbar,.navbar{
   }
   .navbar ul li a{
     font-size: 35px;
+    display: inline-block;
   }
   .right-col{
     margin-left: 125px;
@@ -386,10 +387,58 @@ li.navbar,.navbar{
   }
   .grid{
     height: 410px;
+
   }
   .colg1>p{
     font-size: 30px;
   }.middleend{
     height: 200px;
+  }
+  .tech1 li a{
+    font-size: 35px;
+  }
+  .tech2 li a{
+    font-size: 35px;
+  }
+  .tech3 li a{
+    font-size: 35px;
+  }
+  .tech4 li a{
+    font-size: 35px;
+  }
+  .tech5 li a{
+    font-size: 35px;
+  }
+  .btn{
+    margin-top: 30px;
+  }
+  .footerone{
+    padding-right: 55px;
+    font-size: 25px;
+  }
+  .footertwo{
+    padding-right: 50px;
+    width: 300px;
+    line-height: 35px;
+  }
+  .footerthree{
+    width: 20%;
+    padding-top: 15px;
+    line-height: 35px;
+  }
+  h5.footerthree{
+    font-size:40px;
+  }
+  h5.footertwo{
+    font-size:40px;
+  }
+  
+  .footer-container{
+    padding: 80px;
+    height: 490px;
+  }
+  .footer-container p{
+    font-size: 27px;
+    
   }
 }
