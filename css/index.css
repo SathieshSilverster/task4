@@ -117,8 +117,8 @@
   padding: 35px 0 100px 100px;
 }
 .btn {
-  float: right;
-  margin: 10px 100px 0 0;
+ 
+  margin: 0px 100px 0 100px;
   width: 200px;
   padding: 10px;
   cursor: pointer;
@@ -154,7 +154,10 @@ p.center {
   margin-top: 5px;
   
 }
-.grid {
+.grid{
+  display: flex;
+}
+.gridone {
   display: flex;
 }
 #card {
@@ -167,8 +170,7 @@ p.center {
   margin: 100px;
 }
 .middlecard {
-  margin-top: 20px;
-  margin-right: 50px;
+ 
   margin: 20px 50px 20px 150px;
 }
 .middlecard > a {
@@ -176,7 +178,11 @@ p.center {
   text-decoration: none;
 }
 .middlecardbody {
-  padding: 15px;
+  padding: 28px;
+  word-spacing: 2px;
+  text-align: justify;
+  
+ 
 }
 .tech-logo1 > img {
   width: 100px;
@@ -186,8 +192,8 @@ footer{
   background: linear-gradient(to left, #61504d,#a4e0fc);
 }
 .footercard{
-  width: 15%;
-  margin: 100px 50px 100px 200px;
+  width: 30%;
+  margin: 100px 100px 50px 100px;
   border: 1px solid transparent;
   border-right: 3px solid rgb(161, 101, 101);
   font-size: 20px;
@@ -207,23 +213,54 @@ footer{
 }
 @media screen and (max-width:1000px)
 {
+ 
   .backimg{
-    height: 50vh;
+    height: 9%;
   }
+ 
   .grid{
     display: block;
+    margin-left:203px;
+  }
+  .gridone{
+    display:block;
   }
   #middle > h3{
     font-size: 33px;
+    padding-right: 78px;
+    height:250px;
+  }
+  #card{
+    width:50%;
   }
   .btn{
     font-size: 25px;
     padding: 8px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 10px;
   }
 .middlecard{
   margin-left: 46px;
 }
 .tech-logo1 > img{
   width: 125px;
+}
+p.center{
+  text-align: justify;
+  margin:10px 55px 10px 50px;
+}
+.row{
+  display: block;
+  margin-left: 300px;
+}
+.card{
+  width:58%;
+}
+.footercard{
+ margin-top:40px;
+ padding-top:42px;
+  margin-left: 180px;
+  border: none;
 }
 }
