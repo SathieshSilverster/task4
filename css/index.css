@@ -231,7 +231,8 @@ footer{
     height:250px;
   }
   #card{
-    width:50%;
+    width:60%;
+    font-size: 30px;
   }
   .btn{
     font-size: 25px;
